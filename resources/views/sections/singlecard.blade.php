@@ -67,17 +67,13 @@
                                 <tr>
                                     <th scope="row">Art by:</th>
                                     <td>
-                                        @foreach ($singleCard['artists'] as $item)
-                                            /<a href="/">{{ $item }}</a>
-                                        @endforeach
+                                        <a href="/">{{ $singleCard['artists'] }}</a>
                                     </td>
                                 </tr>
                                 <tr>
                                     <th scope="row">Written by:</th>
                                     <td>
-                                        @foreach ($singleCard['writers'] as $item)
-                                            /<a href="/">{{ $item }}</a>
-                                        @endforeach
+                                        <a href="/">{{ $singleCard['writers'] }}</a>
                                     </td>
                                 </tr>
                             </tbody>
