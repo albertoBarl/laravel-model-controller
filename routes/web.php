@@ -14,7 +14,10 @@ use App\Http\Controllers\ComicController as ComicController;
 |
 */
 
+// route for homepage
 Route::get('/', [ComicController::class, 'index'])->name("home");
+
+// route for single card page
 Route::get('/cardPage/{id}', [ComicController::class, 'single'])->name("cardPage");
 
 // Route::get('/', function () {
