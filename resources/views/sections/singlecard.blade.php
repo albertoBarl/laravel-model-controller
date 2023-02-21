@@ -105,7 +105,7 @@
             {{-- footcards --}}
             <div class="feet d-flex justify-content-center gap-5">
                 @foreach ($footcard as $item)
-                    <a href="/" class="d-flex justify-content-between gap-3">
+                    <a href="/" class="d-flex gap-3">
                         <p class="text-uppercase" style="color: grey">{{ $item['label'] }}</p>
                         <img src="{{ Vite::asset("resources/images/{$item['logo']}") }}" alt="not available"
                             style="height:50px; filter:brightness(0.5)">
